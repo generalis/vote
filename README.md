@@ -4,6 +4,6 @@ Easy vote app based on simple saving question and answer files to helps make a v
 Main concept:
 file      | description
 ----------|:-----------
-index.php |File with CRU(D) functions to create file with random name xyz.hph
-----------|:-----------
-xyz.php   | include created question and naswers in table
+backend.php | file with CRU(D) functions to create file with random name date_xyz.hph
+date_xyz.php   | include created question and naswers in table
+index.php | include last date_xyz.php file with question and answers table and create form
